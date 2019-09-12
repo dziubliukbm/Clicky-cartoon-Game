@@ -18,4 +18,15 @@ list-style-type: none;
 }
 li {
 text-decoration: none;
+width: 33.3%;
+align-items: center;
+text-align: center;
+}
+
+.is-right {
+    color: #09e820;
+}
+
+.is-wrong {
+    color: #fe5e6d;
 }

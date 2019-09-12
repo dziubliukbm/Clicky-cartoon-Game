@@ -1,14 +1,22 @@
 import React from "react";
-import rulesStyle from "./Navbar.css"
+import NavStyle from "./Navbar.css"
 
 function Navbar(props){
+
+    let messageColor = '';
+
+    if (props.started) {
+        messageColor = props.count ? 'is-right' : 'is-wrong';
+    }
+
 return (
 <nav className="navbar">
     <ul>
         <li className="brand">
-            <a href="/">Clicky Game</a>
+            Clicky Game
             </li>
-            <li className="">You guessed correctly!
+            <li className={`message ${messageColor}`}>
+                {props.message}
             </li>
             <li>Score: {props.count}| Top Score: {props.highest}</li>
             </ul>
