@@ -1,3 +1,10 @@
+## Clicky game
+
+# Description:
+The goal to get maximum point by choosing characters (clicking on them). You have 12 cartoons characters.  You can pick one of them by the time, after that they gonna change their positions. If you will choose the already chosen character - you lose and game starts again.
+
+[Click to play](https://afternoon-savannah-86141.herokuapp.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
